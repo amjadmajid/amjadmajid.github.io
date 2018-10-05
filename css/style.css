@@ -1,0 +1,151 @@
+
+body, html, a,p, ul, div, img{
+    margin:0px;
+	padding: 0px;
+}
+li{
+	padding: 5px;
+}
+body{
+		background-color:#011627;
+	font-family: Roboto;
+}
+
+.strokeme
+{
+    color: #FF9F1C;
+    text-shadow:
+    -1px -1px 0 #ECEBDC,
+    1px -1px 0 #000,
+    -1px 4px 0 #000,
+    2px 4px 0 #000;  
+}
+.whiteText{
+	color:#fff;
+}
+.lightBlueText{
+	color:#91a0ba;
+}
+
+.redText{
+	color:#A59487;
+}
+
+.orangeText{
+	color:#FF9F1C;
+}
+.taupText{
+	color:#f2e8d0;
+}
+
+.sansFont{
+	font-family: sans-serif;
+}
+	
+.header{
+	width:100%;
+	margin:0px;
+	padding-right: 10px;
+}
+
+.headerbody{
+	max-width: 896px;
+	font-size: 32px;
+	font-family: 'Reem Kufi', sans-serif;
+	vertical-align: middle;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.socialMediaImg{
+	height:40px;
+}
+
+.courseBin{
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	clear:both;
+}
+.courseBin_head{
+	width: 100%;
+	font-family: 'Mada', sans-serif;
+	font-size: 2em;
+	padding: 3px;
+	font-family: Courgette;
+}
+.courseBin_body{
+	width: 100%;
+	background-color:#FDFFFC;
+	padding-bottom: 4px;
+	outline: 4px solid  #FF9F1C;
+}
+.courseBin_body ul
+{
+	list-style: none;
+}
+.courseBin_body a{
+	text-decoration: none;
+	color: #2968ce;
+	font-weight: 500;
+	font-size: 15px;
+	padding: 10px;
+	vertical-align: top;
+}
+
+a .orangeText {
+	font-size: 13px;
+}
+
+a:hover .orangeText, a:hover .taupText {
+	color: #FF9F1C;
+	font-weight: bold;
+}
+
+a:hover .redText, {
+	font-weight: bold;
+}
+
+a:visited .orangeText {
+	color: #d3bba0;
+}
+
+
+.footId{
+	/*background-color:#2EC4B6;*/
+	width:100%;
+	min-height:200px;
+	margin:0px;
+}
+
+.footbodyId{
+	max-width: 1024px;
+	font-size: 16px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.footerSection{
+	width:252px; 
+	display:inline-block
+}
+
+.footerSection, .footerSection a{
+	color: #e8e8e8;
+}
+.footerSectionHeader{
+	padding:5px;
+	font-size: 16px;
+}
+
+.footerSectionBody{
+	list-style-type: none;
+	font-size: 13px;
+}
+
+.footerSectionBody ul{
+	list-style-type: none;
+}
