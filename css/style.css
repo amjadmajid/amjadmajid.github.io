@@ -6,19 +6,23 @@ body, html, a,p, ul, div, img{
 li{
 	padding: 5px;
 }
+td{
+	padding: 5px;
+	vertical-align: top;
+}
 body{
-		background-color:#011627;
-	font-family: Roboto;
+		/*background-color:#011627;*/
+	font-family: Rajdhani;
 }
 
 .strokeme
 {
-    color: #FF9F1C;
-    text-shadow:
-    -1px -1px 0 #ECEBDC,
-    1px -1px 0 #000,
-    -1px 4px 0 #000,
-    2px 4px 0 #000;  
+/*	padding-bottom: 20px;*/
+/*    text-shadow:*/
+/*    0px 0px 0 #ECEBDC,
+    0px 0px 0 #444,
+    0px 5px 0 #444,
+    2px 5px 0 #444;  */
 }
 .whiteText{
 	color:#fff;
@@ -37,6 +41,9 @@ body{
 .taupText{
 	color:#f2e8d0;
 }
+.redText{
+	color:#990000;
+}
 
 .sansFont{
 	font-family: sans-serif;
@@ -50,9 +57,6 @@ body{
 
 .headerbody{
 	max-width: 896px;
-	font-size: 32px;
-	font-family: 'Reem Kufi', sans-serif;
-	vertical-align: middle;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top:0px;
@@ -80,7 +84,7 @@ body{
 	width: 100%;
 	background-color:#FDFFFC;
 	padding-bottom: 4px;
-	outline: 4px solid  #FF9F1C;
+	/*outline: 4px solid  #FF9F1C;*/
 }
 .courseBin_body ul
 {
@@ -97,14 +101,15 @@ body{
 
 a .orangeText {
 	font-size: 13px;
+	text-decoration: none;
 }
 
 a:hover .orangeText, a:hover .taupText {
-	color: #FF9F1C;
+	color: red;
 	font-weight: bold;
 }
 
-a:hover .redText, {
+a:hover .redText {
 	font-weight: bold;
 }
 
@@ -112,6 +117,15 @@ a:visited .orangeText {
 	color: #d3bba0;
 }
 
+.news_img{
+	float: left; 
+	width: 230px; 
+	margin-right: 6px;
+	color:#990000;
+	margin-bottom: 6px;
+	padding: 6px;
+	/*outline: 1px solid #990000;*/
+}
 
 .footId{
 	/*background-color:#2EC4B6;*/
