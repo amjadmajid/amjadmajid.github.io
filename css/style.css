@@ -15,15 +15,17 @@ body{
 	font-family: Rajdhani;
 }
 
-.strokeme
+a.fab {font-weight:900}
+
+/*.strokeme
 {
-/*	padding-bottom: 20px;*/
-/*    text-shadow:*/
-/*    0px 0px 0 #ECEBDC,
+	padding-bottom: 20px;
+    text-shadow:
+    0px 0px 0 #ECEBDC,
     0px 0px 0 #444,
     0px 5px 0 #444,
-    2px 5px 0 #444;  */
-}
+    2px 5px 0 #444;  
+}*/
 .whiteText{
 	color:#fff;
 }
