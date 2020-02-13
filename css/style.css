@@ -11,21 +11,11 @@ td{
 	vertical-align: top;
 }
 body{
-		/*background-color:#011627;*/
 	font-family: Rajdhani;
 }
 
 a.fab {font-weight:900}
 
-/*.strokeme
-{
-	padding-bottom: 20px;
-    text-shadow:
-    0px 0px 0 #ECEBDC,
-    0px 0px 0 #444,
-    0px 5px 0 #444,
-    2px 5px 0 #444;  
-}*/
 .whiteText{
 	color:#fff;
 }
@@ -33,19 +23,24 @@ a.fab {font-weight:900}
 	color:#91a0ba;
 }
 
-.redText{
-	color:#A59487;
-}
-
-.orangeText{
+/*.orangeText{
 	color:#FF9F1C;
-}
+}*/
 .taupText{
 	color:#f2e8d0;
 }
 .redText{
 	color:#990000;
 }
+
+.fontSize_1_2em{
+	font-size: 1.2em;
+}
+
+.fontSize_1_2em a span{
+	font-size: 1.2em;
+}
+
 
 .sansFont{
 	font-family: sans-serif;
@@ -165,3 +160,30 @@ a:visited .orangeText {
 .footerSectionBody ul{
 	list-style-type: none;
 }
+
+#name{
+font-size: 6em; 
+text-align: center; 
+font-family: Gudea;	
+}
+#short_name{
+	display: none;
+	font-size: 4em;
+	text-align: center; 
+	font-family: Gudea;	
+}
+
+@media only screen and (max-width: 768px) {
+  #name {
+    display: none;
+  }
+  #short_name{
+  	display: block;
+}
+
+@media only screen and (max-width: 320px) {
+  #name {
+    font-size: 2em;
+  }
+}
+
