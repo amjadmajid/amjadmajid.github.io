@@ -33,12 +33,26 @@ a.fab {font-weight:900}
 	color:#990000;
 }
 
+.blackBackground{
+background-color: #000;
+}
+
 .fontSize_1_2em{
 	font-size: 1.2em;
 }
 
 .fontSize_1_2em a span{
 	font-size: 1.2em;
+}
+
+.text_algin_center{
+	text-align: center;
+}
+.imam_Ali_text{
+margin-bottom:10px; 
+font-size:1.2em;
+text-align: center; 
+font-family: Rajdhani;
 }
 
 
@@ -162,13 +176,13 @@ a:visited .orangeText {
 }
 
 #name{
-font-size: 6em; 
+font-size: 5.8em; 
 text-align: center; 
 font-family: Gudea;	
 }
 #short_name{
 	display: none;
-	font-size: 4em;
+	font-size: 5em;
 	text-align: center; 
 	font-family: Gudea;	
 }
