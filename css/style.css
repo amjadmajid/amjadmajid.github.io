@@ -1,5 +1,5 @@
 
-body, html, a,p, ul, div, img{
+body, html, a,p, ol, div, img{
     margin:0px;
 	padding: 0px;
 }
@@ -185,7 +185,7 @@ font-family: Gudea;
 }
 #short_name{
 	display: none;
-	font-size: 5em;
+	font-size: 4.6em;
 	text-align: center; 
 	font-family: Gudea;	
 }
