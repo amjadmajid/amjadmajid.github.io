@@ -49,12 +49,15 @@ background-color: #000;
 	text-align: center;
 }
 .imam_Ali_text{
-margin-bottom:10px; 
 font-size:1.2em;
 text-align: center; 
 font-family: Rajdhani;
 }
 
+#subTitle_text{
+	font-size:1.2em;
+	text-align: center; 
+}
 
 .sansFont{
 	font-family: sans-serif;
