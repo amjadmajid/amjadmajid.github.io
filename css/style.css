@@ -185,17 +185,30 @@ font-family: Gudea;
 }
 #short_name{
 	display: none;
-	font-size: 4.6em;
+	font-size: 4em;
 	text-align: center; 
 	font-family: Gudea;	
+}
+#short_subtitle_text{
+ display: none;
 }
 
 @media only screen and (max-width: 768px) {
   #name {
     display: none;
   }
+   #subtitle_text{
+  	display: none;
+  }
+  #short_subtitle_text{
+  	display: block;
+  }
   #short_name{
   	display: block;
+  }
+  .imam_Ali_text{
+  	font-size: 1em;
+  }
 }
 
 @media only screen and (max-width: 320px) {
