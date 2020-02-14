@@ -190,7 +190,10 @@ font-family: Gudea;
 	font-family: Gudea;	
 }
 #short_subtitle_text{
- display: none;
+ 	display: none;
+}
+#subtitle_text{
+	font-size: 1.2em;
 }
 
 @media only screen and (max-width: 768px) {
