@@ -1,0 +1,196 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Untitled Document.md</title><style></style></head><body id="preview">
+<pre><code class="has-line-data" data-line-start="1" data-line-end="195" class="language-C"><span class="hljs-comment">/*
+@ Author: Amjad Yousef Majid
+@ Date: 12/March/2017
+*/</span>
+
+<span class="hljs-preprocessor">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span>
+<span class="hljs-preprocessor">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdlib.h&gt;</span></span>
+<span class="hljs-preprocessor">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdbool.h&gt;</span></span>
+
+<span class="hljs-comment">// The linkedlist node or link</span>
+<span class="hljs-keyword">struct</span> _node{
+    <span class="hljs-keyword">int</span> value;
+    <span class="hljs-keyword">int</span> id;
+    <span class="hljs-keyword">struct</span> _node * next;
+};
+<span class="hljs-comment">// deffining data type</span>
+<span class="hljs-keyword">typedef</span> <span class="hljs-keyword">struct</span> _node node;
+<span class="hljs-comment">// * // Global variables</span>
+<span class="hljs-comment">// head always points to the beginning of the list</span>
+node *head=<span class="hljs-literal">NULL</span>;        
+<span class="hljs-comment">// current is used during traversing the likedlist</span>
+node *current=<span class="hljs-literal">NULL</span>;
+
+
+<span class="hljs-comment">// * // function prototyping</span>
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">insert</span><span class="hljs-params">(<span class="hljs-keyword">int</span>, <span class="hljs-keyword">int</span>)</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">length</span><span class="hljs-params">( node*  )</span></span>;
+<span class="hljs-function">node* <span class="hljs-title">find</span><span class="hljs-params">(<span class="hljs-keyword">int</span> )</span></span>;
+<span class="hljs-function">node* <span class="hljs-title">findPrevious</span><span class="hljs-params">(<span class="hljs-keyword">int</span> )</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">delete</span><span class="hljs-params">(<span class="hljs-keyword">int</span> )</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">isEmpty</span><span class="hljs-params">()</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">display</span><span class="hljs-params">( node * )</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">insertBefore</span><span class="hljs-params">(<span class="hljs-keyword">int</span> ,<span class="hljs-keyword">int</span>, <span class="hljs-keyword">int</span> )</span></span>;
+
+<span class="hljs-comment">// Add a link (node) to the top of the list</span>
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">insert</span><span class="hljs-params">(<span class="hljs-keyword">int</span> id, <span class="hljs-keyword">int</span> value)</span></span>{
+    <span class="hljs-comment">// Assign a memory for the node</span>
+    node *link = (node*)<span class="hljs-built_in">malloc</span>(<span class="hljs-keyword">sizeof</span>(node));
+    <span class="hljs-keyword">if</span>(link == <span class="hljs-literal">NULL</span>)
+    {
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">"ERROR: could not alocate memory for the node."</span>);
+        <span class="hljs-keyword">return</span>;
+    }
+    <span class="hljs-comment">// assign values to the struct fields</span>
+    link-&gt;id = id; 
+    link-&gt;value = value;
+<span class="hljs-comment">// link the nodes</span>
+<span class="hljs-comment">/*             head
+                v
+    node(1)-&gt;node(NULL) */</span>
+    link-&gt;next =  head;
+<span class="hljs-comment">// Move the head pointer to the top of the linked list</span>
+<span class="hljs-comment">/*      head
+         v
+      node(1)-&gt;node(NULL)   */</span>
+    head = link;
+}
+
+<span class="hljs-comment">// insert a node at a specific location in the list</span>
+<span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">insertBefore</span><span class="hljs-params">(<span class="hljs-keyword">int</span> nodeId ,<span class="hljs-keyword">int</span> id, <span class="hljs-keyword">int</span> value)</span></span>{
+    <span class="hljs-comment">// Assign a memory for the node</span>
+    node *link = (node*)<span class="hljs-built_in">malloc</span>(<span class="hljs-keyword">sizeof</span>(node));
+    <span class="hljs-keyword">if</span>(link == <span class="hljs-literal">NULL</span>)
+    {
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">"ERROR: could not alocate memory for the node."</span>);
+        <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+    }
+    <span class="hljs-comment">// assign values to the struct fields</span>
+    link-&gt;id = id; 
+    link-&gt;value = value;
+<span class="hljs-comment">// link the nodes</span>
+
+    node * previous =  find(nodeId);
+
+    <span class="hljs-keyword">if</span>(previous != <span class="hljs-literal">NULL</span>){
+        link-&gt;next =  previous-&gt;next;
+        previous-&gt;next =  link;
+
+        <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+    }
+
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+}
+
+
+<span class="hljs-comment">//find the length of the list</span>
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">length</span><span class="hljs-params">( node * listHead )</span></span>{
+    <span class="hljs-keyword">int</span> length=<span class="hljs-number">0</span>;
+    <span class="hljs-comment">// a pointer is passed as as such it should not be </span>
+    <span class="hljs-comment">// modified (passed by reference)</span>
+    node * current = listHead;  
+    <span class="hljs-comment">// when the current reaches the end of the list</span>
+    <span class="hljs-comment">// it will equal NULL and the loop will break</span>
+    <span class="hljs-keyword">while</span>(current) 
+    {
+        length++;
+        current = current-&gt;next;
+    }  
+    <span class="hljs-keyword">return</span> length;
+}
+
+<span class="hljs-comment">//find a link with given id</span>
+<span class="hljs-function">node * <span class="hljs-title">find</span><span class="hljs-params">(<span class="hljs-keyword">int</span> id)</span> </span>{
+
+   <span class="hljs-comment">//start from the first link</span>
+   node* current = head;
+
+   <span class="hljs-keyword">while</span>(current) {
+      <span class="hljs-keyword">if</span>(current-&gt;id == id) {
+        <span class="hljs-comment">// return the node with given id</span>
+         <span class="hljs-keyword">return</span> current;
+      } 
+      current = current-&gt;next;
+  }
+  <span class="hljs-comment">// If the id is not found.</span>
+   <span class="hljs-keyword">return</span> <span class="hljs-literal">NULL</span>;
+}
+
+<span class="hljs-comment">//find the previous node </span>
+<span class="hljs-function">node* <span class="hljs-title">findPrevious</span><span class="hljs-params">(<span class="hljs-keyword">int</span> id)</span> </span>{
+
+   <span class="hljs-comment">//start from the first link (node)</span>
+   node* previous = head;
+
+   <span class="hljs-keyword">while</span>(previous) {
+    <span class="hljs-comment">// node(a) -&gt; node(b). If the id matches node(b) id return node(a)</span>
+      <span class="hljs-keyword">if</span>(previous-&gt;next-&gt;id == id) {
+         <span class="hljs-keyword">return</span> previous ;
+      } 
+      previous = previous-&gt;next;
+  }
+   <span class="hljs-keyword">return</span> <span class="hljs-literal">NULL</span>;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">delete</span><span class="hljs-params">(<span class="hljs-keyword">int</span> id)</span>
+</span>{
+    node * current = find(id);
+    node * previous = findPrevious(id);
+    <span class="hljs-keyword">if</span>(current != <span class="hljs-literal">NULL</span> &amp;&amp; previous != <span class="hljs-literal">NULL</span>)
+    {
+        previous-&gt;next = current-&gt;next;
+        current-&gt;next =<span class="hljs-literal">NULL</span>;
+        <span class="hljs-built_in">free</span>(current);
+        <span class="hljs-comment">// delete the first node </span>
+    }<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(current != <span class="hljs-literal">NULL</span> &amp;&amp; previous == <span class="hljs-literal">NULL</span>)
+    {
+        <span class="hljs-comment">// Let the head points to the seconde node in the list</span>
+        head = current-&gt;next;
+        <span class="hljs-comment">// disconnect the first node in the list</span>
+        current-&gt;next = <span class="hljs-literal">NULL</span>;
+        <span class="hljs-comment">// dealocate the memory for the first node</span>
+        <span class="hljs-built_in">free</span>(current);
+
+    }
+}
+
+<span class="hljs-comment">//is list empty</span>
+<span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">isEmpty</span><span class="hljs-params">()</span> </span>{
+   <span class="hljs-keyword">return</span> head == <span class="hljs-literal">NULL</span>;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">display</span><span class="hljs-params">( node * head)</span>
+</span>{
+    current = head;
+    <span class="hljs-keyword">while</span>(current)
+    {
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">"node(%d,%d)\n"</span>, current-&gt;id, current-&gt;value );
+        current = current-&gt;next;
+    }
+}
+
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">(<span class="hljs-keyword">int</span> argc, <span class="hljs-keyword">char</span> <span class="hljs-keyword">const</span> *argv[])</span>
+</span>{
+    insert(<span class="hljs-number">1</span>,<span class="hljs-number">20</span>);
+    insert(<span class="hljs-number">2</span>,<span class="hljs-number">30</span>);
+    insert(<span class="hljs-number">3</span>,<span class="hljs-number">87</span>);
+    insertBefore(<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">87</span>);
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"The length of the list is %d\n"</span>, length(head) );
+    display( head);
+
+    <span class="hljs-keyword">delete</span>(<span class="hljs-number">1</span>);
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"Delete a node \n"</span> );
+    display( head);
+
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+
+
+<span class="hljs-comment">/*
+Some good recources:
+* https://www.tutorialspoint.com/
+* http://www.sanfoundry.com
+*/</span></code></pre>
+</body></html>
