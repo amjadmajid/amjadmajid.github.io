@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+  /*user-select: none;*/
+}
+body{
+	width: 100%;
+	margin:0;
+  font-family: sans-serif;
+}
+#canvas{
+	display: block;
+	border: 1px solid #2f2f2f;
+}
+
+#toolbar{
+  width: 100%;
+  position: fixed;
+  padding: 6px;
+  top: 0;
+  background-color: #2f2f2f;
+  color: white;
+  font-size: 1em;
+}
+
+#radcontroler{
+  vertical-align: bottom;
+  /*max-width: 4em;*/
+}
+
+#colorsCont{
+  float: right;
+}
+#controls{
+  display: inline-block;
+}
+
+
+#radval{
+  /*display: inline-block;*/
+  /*set the width to not change the dimention of the element when the number changes 
+  for 1..9 to 10..100*/
+  width: 2em;
+}
+
+.swatch{
+  width: 30px;
+  height: 30px;
+  border-radius: 12px;
+  margin-left: 2px;
+  color: white;
+  outline-style: none;
+  border:none;
+
+}
+
+.swatch.active{
+  border:2px solid #f3f3f3;
+}
+
+#link{
+  text-decoration: none;
+}
