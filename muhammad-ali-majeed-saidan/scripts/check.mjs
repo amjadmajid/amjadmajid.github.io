@@ -17,7 +17,7 @@ assert.equal(new Set(dois).size, dois.length, 'Duplicate DOI');
 assert.equal(new Set(pmids).size, pmids.length, 'Duplicate PubMed identifier');
 for (const [, target] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
   if (target.startsWith('#')) assert(ids.includes(target.slice(1)), `Missing section: ${target}`);
-  else if (!/^(https?:|mailto:|data:)/.test(target)) assert(fs.existsSync(path.join(root, target.split('#')[0])), `Missing local asset: ${target}`);
+  else if (!/^(https?:|mailto:|data:)/.test(target)) assert(fs.existsSync(path.join(root, target.split(/[?#]/)[0])), `Missing local asset: ${target}`);
 }
 for (const record of data.publications) {
   assert(record.sources.length > 0 && record.authors.length > 0 && record.title && record.year, `Incomplete source data: ${record.id}`);
