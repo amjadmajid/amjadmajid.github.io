@@ -10,6 +10,7 @@ A responsive, accessible, buildless academic website covering paediatrics, neona
 - Journal/DOI and PubMed links, plus a downloadable BibTeX bibliography.
 - Semantic HTML, keyboard navigation, reduced-motion support and print styles.
 - Responsive layout and relative asset paths suitable for a GitHub project Pages site.
+- Dated photo stories, beginning with the British Museum visit on 7 November 2026.
 - No tracking, cookies, forms, paid services or runtime dependencies.
 
 ## Deployment layout
@@ -38,6 +39,9 @@ With Node 18 or newer, `npm run build` copies the public site to `dist/` for pre
 | --- | --- |
 | `index.html` | Profile text, links, research sections and pre-rendered publication list |
 | `assets/styles.css` | Design and responsive layout |
+| `assets/stories.css` | Photo-story and homepage story feature styling |
+| `stories/british-museum-2026-11-07.html` | British Museum photo story with all six supplied photographs |
+| `assets/photos/british-museum-2026-11-07/` | Supplied original photographs, with descriptive filenames |
 | `assets/app.js` | Mobile navigation, filters, pagination and citation copying |
 | `assets/research-art.svg` | Original decorative artwork; replace with an approved portrait if desired |
 | `data/publications.json` | Bibliographic source data |
