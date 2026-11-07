@@ -1,0 +1,8 @@
+{
+  "name": "muhammad-ali-majeed-saidan-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A static professional research website for Dr Muhammad Ali Majeed-Saidan",
+  "scripts": {"build": "node scripts/build.mjs", "check": "node scripts/check.mjs"},
+  "engines": {"node": ">=18"}
+}

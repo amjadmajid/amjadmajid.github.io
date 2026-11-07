@@ -1,0 +1,696 @@
+{
+  "researcher": "Muhammad Ali Majeed-Saidan",
+  "user_supplied_name": "Mohammed Ali Majeed Saidan",
+  "orcid": "0000-0003-1705-7540",
+  "verified_on": "2026-11-07",
+  "record_count": 18,
+  "scope": "Source-verified bibliography assembled from PubMed/Europe PMC, publisher pages and publisher-deposited Crossref records. Includes original research, clinical reports, a review, an editorial and correspondence. This is not a complete Google Scholar export and must not be represented as a total career publication count.",
+  "disambiguation": [
+    "Maryam Muhammad Ali Majeed-Saidan / Maryam Majeed-Saidan is a different author (cardiology and other work), excluded.",
+    "Ahmad Majeed-Saidan is a different author (dentistry), excluded.",
+    "Citing articles not authored by the researcher were excluded.",
+    "ORCID 0000-0003-1705-7540 is explicitly linked by his 2019 Springer article; the public ORCID record did not expose a works list.",
+    "No verified citation count, h-index or comprehensive Google Scholar publication count is available."
+  ],
+  "publications": [
+    {
+      "id": "majeed-saidan-2025-vlbw",
+      "title": "Clinical Outcomes of Very Low Birth Weight Infants until Hospital Discharge over Two Decades: A Cohort Study in a Tertiary Hospital in Riyadh, Kingdom of Saudi Arabia",
+      "year": 2025,
+      "publication_date": "2025-10",
+      "online_first": null,
+      "authors": [
+        "Muhammad Ali Majeed-Saidan",
+        "Fawaz T. Kashlan",
+        "Amer N. Ammari"
+      ],
+      "author_list_complete": true,
+      "journal": "Journal of Clinical Neonatology",
+      "volume": "14",
+      "issue": "4",
+      "pages": "141-147",
+      "doi": "10.4103/jcn.jcn_77_25",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://www.ovid.com/10.4103/jcn.jcn_77_25",
+      "category": "Neonatal outcomes",
+      "type": "Research article",
+      "summary": "An analysis of survival and major neonatal complications among 3,263 very low birthweight infants born between 2000 and 2019.",
+      "sources": [
+        "https://doi.org/10.4103/jcn.jcn_77_25",
+        "https://api.crossref.org/works/10.4103/jcn.jcn_77_25"
+      ],
+      "verification": "Publisher-registered Crossref bibliographic metadata.",
+      "notes": [
+        "October 2025 journal issue; no PubMed record found. Study population and period verified against the abstract deposited by the publisher with Crossref. This publication affiliation does not independently establish a current employment or appointment status."
+      ],
+      "topics": [
+        "neonatal"
+      ]
+    },
+    {
+      "id": "pmid-31492776",
+      "title": "Congenital anomalies and associated risk factors in a Saudi population: a cohort study from pregnancy to age 2 years",
+      "year": 2019,
+      "publication_date": "2019-09",
+      "online_first": "2019-09-05",
+      "authors": [
+        "Ahmed M Kurdi",
+        "Muhammad Ali Majeed-Saidan",
+        "Maha S Al Rakaf",
+        "Amal M AlHashem",
+        "Lorenzo D Botto",
+        "Hassan S Baaqeel",
+        "Amer N Ammari"
+      ],
+      "authors_indexed": "Kurdi AM, Majeed-Saidan MA, Al Rakaf MS, AlHashem AM, Botto LD, Baaqeel HS, Ammari AN.",
+      "author_list_complete": true,
+      "journal": "BMJ Open",
+      "volume": "9",
+      "issue": "9",
+      "pages": "e026351",
+      "doi": "10.1136/bmjopen-2018-026351",
+      "pmid": "31492776",
+      "pmcid": "PMC6731804",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31492776/",
+      "category": "Birth defects",
+      "type": "Research article",
+      "summary": "A longitudinal study of congenital anomalies, associated maternal risk factors and survival through the first two years of life.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31492776/",
+        "https://europepmc.org/article/MED/31492776",
+        "https://doi.org/10.1136/bmjopen-2018-026351"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API.",
+      "notes": [],
+      "topics": [
+        "anomalies",
+        "surveillance"
+      ]
+    },
+    {
+      "id": "majeed-saidan-2019-chd",
+      "title": "Patterns, prevalence, risk factors, and survival of newborns with congenital heart defects in a Saudi population: a three-year, cohort case-control study",
+      "year": 2019,
+      "publication_date": "2019-03-20",
+      "online_first": "2019-03-20",
+      "authors": [
+        "Muhammad Ali Majeed-Saidan",
+        "Merna Atiyah",
+        "Amer N. Ammari",
+        "Amal M. AlHashem",
+        "Maha S. Rakaf",
+        "Mohamed M. Shoukri",
+        "Ester Garne",
+        "Ahmed M. Kurdi"
+      ],
+      "author_list_complete": true,
+      "journal": "Journal of Congenital Cardiology",
+      "volume": "3",
+      "issue": null,
+      "pages": "Article 2",
+      "doi": "10.1186/s40949-019-0023-8",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://link.springer.com/article/10.1186/s40949-019-0023-8",
+      "category": "Birth defects",
+      "type": "Research article",
+      "summary": "A prospective study of congenital heart defects, associated risk factors and survival through two years of age.",
+      "sources": [
+        "https://link.springer.com/article/10.1186/s40949-019-0023-8",
+        "https://doi.org/10.1186/s40949-019-0023-8"
+      ],
+      "verification": "Full publisher article, author list and publication date verified. Publisher explicitly links Majeed-Saidan to ORCID 0000-0003-1705-7540.",
+      "notes": [
+        "The cohort included 28,646 eligible births. This is one cohort, not a count of patients personally treated."
+      ],
+      "topics": [
+        "anomalies",
+        "surveillance"
+      ]
+    },
+    {
+      "id": "pmid-26804344",
+      "title": "Crisponi/CISS1 syndrome: A case series",
+      "year": 2016,
+      "publication_date": "2016-05",
+      "online_first": "2016-01-24",
+      "authors": [
+        "Amal M Alhashem",
+        "Muhammad Ali Majeed-Saidan",
+        "Amer N Ammari",
+        "Maha S Alrakaf",
+        "Maha Nojoom",
+        "Sateesh Maddirevula",
+        "Eissa Faqeih",
+        "Fowzan S Alkuraya",
+        "Ester Garne",
+        "Ahmad M Kurdi"
+      ],
+      "authors_indexed": "Alhashem AM, Majeed-Saidan MA, Ammari AN, Alrakaf MS, Nojoom M, Maddirevula S, Faqeih E, Alkuraya FS, Garne E, Kurdi AM.",
+      "author_list_complete": true,
+      "journal": "American Journal of Medical Genetics Part A",
+      "volume": "170A",
+      "issue": "5",
+      "pages": "1236-1241",
+      "doi": "10.1002/ajmg.a.37569",
+      "pmid": "26804344",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26804344/",
+      "category": "Birth defects",
+      "type": "Case series",
+      "summary": "Clinical and genetic characterization of a rare congenital syndrome in a series of affected children.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26804344/",
+        "https://europepmc.org/article/MED/26804344",
+        "https://doi.org/10.1002/ajmg.a.37569"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API.",
+      "notes": [],
+      "topics": [
+        "anomalies"
+      ]
+    },
+    {
+      "id": "pmid-25719575",
+      "title": "World Birth Defects Day. Towards a national registry for birth defects in Saudi Arabia",
+      "year": 2015,
+      "publication_date": "2015-02",
+      "online_first": "2015-02-01",
+      "authors": [
+        "Ahmed M Kurdi",
+        "Muhammad A Majeed-Saidan"
+      ],
+      "authors_indexed": "Kurdi AM, Majeed-Saidan MA.",
+      "author_list_complete": true,
+      "journal": "Saudi Medical Journal",
+      "volume": "36",
+      "issue": "2",
+      "pages": "143-145",
+      "doi": "10.15537/smj.2015.2.11397",
+      "pmid": "25719575",
+      "pmcid": "PMC4375688",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25719575/",
+      "category": "Prevention & policy",
+      "type": "Editorial",
+      "summary": "A call for systematic birth-defect surveillance and a national registry in Saudi Arabia.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/25719575/",
+        "https://europepmc.org/article/MED/25719575",
+        "https://doi.org/10.15537/smj.2015.2.11397"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; matching publisher-registered Crossref metadata used for newly assigned Saudi Medical Journal DOIs.",
+      "notes": [],
+      "topics": [
+        "surveillance"
+      ]
+    },
+    {
+      "id": "pmid-25363692",
+      "title": "Effect of consanguinity on birth defects in Saudi women: results from a nested case-control study",
+      "year": 2015,
+      "publication_date": "2015-02",
+      "online_first": "2014-10-31",
+      "authors": [
+        "Muhammad Ali Majeed-Saidan",
+        "Amer N Ammari",
+        "Amal M AlHashem",
+        "Maha S Al Rakaf",
+        "Mohamed M Shoukri",
+        "Ester Garne",
+        "Ahmed Mohammed Kurdi"
+      ],
+      "authors_indexed": "Majeed-Saidan MA, Ammari AN, AlHashem AM, Al Rakaf MS, Shoukri MM, Garne E, Kurdi AM.",
+      "author_list_complete": true,
+      "journal": "Birth Defects Research Part A: Clinical and Molecular Teratology",
+      "volume": "103",
+      "issue": "2",
+      "pages": "100-104",
+      "doi": "10.1002/bdra.23331",
+      "pmid": "25363692",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25363692/",
+      "category": "Birth defects",
+      "type": "Research article",
+      "summary": "A nested case-control analysis of the relationship between parental consanguinity and major birth defects.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/25363692/",
+        "https://europepmc.org/article/MED/25363692",
+        "https://doi.org/10.1002/bdra.23331"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API.",
+      "notes": [
+        "Journal issue date is February 2015; online-first publication was 31 October 2014. Display 2015 for the journal citation."
+      ],
+      "topics": [
+        "anomalies"
+      ]
+    },
+    {
+      "id": "pmid-26844119",
+      "title": "Patterns of folic acid use in pregnant Saudi women and prevalence of neural tube defects - Results from a nested case-control study",
+      "year": 2015,
+      "publication_date": "2015",
+      "online_first": "2015-06-26",
+      "authors": [
+        "Maha S Al Rakaf",
+        "Ahmed M Kurdi",
+        "Amer N Ammari",
+        "Amal M Al Hashem",
+        "Mohamed M Shoukri",
+        "Ester Garne",
+        "Muhammad Ali Majeed-Saidan"
+      ],
+      "authors_indexed": "Al Rakaf MS, Kurdi AM, Ammari AN, Al Hashem AM, Shoukri MM, Garne E, Majeed-Saidan MA.",
+      "author_list_complete": true,
+      "journal": "Preventive Medicine Reports",
+      "volume": "2",
+      "issue": null,
+      "pages": "572-576",
+      "doi": "10.1016/j.pmedr.2015.06.016",
+      "pmid": "26844119",
+      "pmcid": "PMC4721389",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26844119/",
+      "category": "Prevention & policy",
+      "type": "Research article",
+      "summary": "An investigation of folic acid use around conception and the occurrence of neural tube defects.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26844119/",
+        "https://europepmc.org/article/MED/26844119",
+        "https://doi.org/10.1016/j.pmedr.2015.06.016"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API.",
+      "notes": [],
+      "topics": [
+        "anomalies"
+      ]
+    },
+    {
+      "id": "pmid-22057601",
+      "title": "The incidence and spectrum of central nervous system malformations in newborns over a decade (2001-2010) in the Central Region of Saudi Arabia",
+      "year": 2011,
+      "publication_date": "2011-11",
+      "online_first": "2011-11-01",
+      "authors": [
+        "Wejdan S Hakami",
+        "Muhammad A Majeed-Saidan"
+      ],
+      "authors_indexed": "Hakami WS, Majeed-Saidan MA.",
+      "author_list_complete": true,
+      "journal": "Saudi Medical Journal",
+      "volume": "32",
+      "issue": "11",
+      "pages": "1137-1142",
+      "doi": "10.15537/1658-3175.5415",
+      "pmid": "22057601",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22057601/",
+      "category": "Birth defects",
+      "type": "Research article",
+      "summary": "A decade of imaging-confirmed central nervous system malformations in a newborn population in Riyadh.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/22057601/",
+        "https://europepmc.org/article/MED/22057601",
+        "https://doi.org/10.15537/1658-3175.5415",
+        "https://api.crossref.org/works/10.15537/1658-3175.5415"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; matching publisher-registered Crossref metadata used for newly assigned Saudi Medical Journal DOIs.",
+      "notes": [],
+      "topics": [
+        "anomalies",
+        "surveillance"
+      ]
+    },
+    {
+      "id": "majeed-saidan-2008-reply-november",
+      "title": "Pattern of neonatal and post neonatal deaths over a decade (1995-2004) at a Military Hospital in Saudi Arabia",
+      "year": 2008,
+      "publication_date": "2008-11-01",
+      "online_first": null,
+      "authors": [
+        "Ghulam Nabi",
+        "Muhammad A. Majeed-Saidan",
+        "Fawaz T. Kashlan",
+        "Atyah A. Al-Zahrani",
+        "Faisal Y. Ezzedeen",
+        "Amer N. Ammari"
+      ],
+      "author_list_complete": true,
+      "journal": "Saudi Medical Journal",
+      "volume": "29",
+      "issue": "11",
+      "pages": "1682-1684",
+      "doi": "10.15537/1658-3175.4555",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://smj.researchcommons.org/journal/vol29/iss11/33",
+      "category": "Neonatal outcomes",
+      "type": "Correspondence",
+      "summary": "A further letter and author response discussing the published study of neonatal and postneonatal deaths.",
+      "sources": [
+        "https://doi.org/10.15537/1658-3175.4555",
+        "https://api.crossref.org/works/10.15537/1658-3175.4555",
+        "https://smj.researchcommons.org/journal/vol29/iss11/33/"
+      ],
+      "verification": "Publisher-registered Crossref bibliographic metadata. Publisher article page and issue table of contents confirm type and authors.",
+      "notes": [
+        "Publisher labels this Letter to the Editor. Bibliographic authors include the original letter writer and the reply authors. Do not use the first letter writer's affiliation for the other authors. This is distinct from both the June 2008 study and the October 2008 correspondence."
+      ],
+      "topics": [
+        "neonatal"
+      ]
+    },
+    {
+      "id": "pmid-18946591",
+      "title": "Pattern of neonatal and postneonatal deaths over a decade 1995-2004 at a Military Hospital in Saudi Arabia",
+      "year": 2008,
+      "publication_date": "2008-10",
+      "online_first": "2008-10-01",
+      "authors": [
+        "Mahmood D Al-Mendalawi",
+        "Muhammad A Majeed-Saidan",
+        "Fawaz T Kashlan",
+        "Atyah A Al-Zahrani",
+        "Faisal Y Ezzedeen",
+        "Amer N Ammari"
+      ],
+      "authors_indexed": "Al-Mendalawi MD, Majeed-Saidan MA, Kashlan FT, Al-Zahrani AA, Ezzedeen FY, Ammari AN.",
+      "author_list_complete": true,
+      "journal": "Saudi Medical Journal",
+      "volume": "29",
+      "issue": "10",
+      "pages": "1521; author reply 1521-2",
+      "doi": "10.15537/1658-3175.4522",
+      "pmid": "18946591",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18946591/",
+      "category": "Neonatal outcomes",
+      "type": "Correspondence",
+      "summary": "Correspondence and author reply concerning a decade-long neonatal and postneonatal mortality study.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/18946591/",
+        "https://europepmc.org/article/MED/18946591",
+        "https://doi.org/10.15537/1658-3175.4522",
+        "https://api.crossref.org/works/10.15537/1658-3175.4522"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; matching publisher-registered Crossref metadata used for newly assigned Saudi Medical Journal DOIs.",
+      "notes": [
+        "This is correspondence, distinct from the June 2008 original article. PubMed jointly indexes the letter writer and authors of the reply. The first letter writer's affiliation must not be applied to Majeed-Saidan."
+      ],
+      "topics": [
+        "neonatal"
+      ]
+    },
+    {
+      "id": "pmid-18521470",
+      "title": "Pattern of neonatal and postneonatal deaths over a decade (1995--2004) at a Military Hospital in Saudi Arabia",
+      "year": 2008,
+      "publication_date": "2008-06",
+      "online_first": "2008-06-01",
+      "authors": [
+        "Muhammad A Majeed-Saidan",
+        "Fawaz T Kashlan",
+        "Atyah A Al-Zahrani",
+        "Faisal Y Ezzedeen",
+        "Amer N Ammari"
+      ],
+      "authors_indexed": "Majeed-Saidan MA, Kashlan FT, Al-Zahrani AA, Ezzedeen FY, Ammari AN.",
+      "author_list_complete": true,
+      "journal": "Saudi Medical Journal",
+      "volume": "29",
+      "issue": "6",
+      "pages": "879-883",
+      "doi": "10.15537/1658-3175.4366",
+      "pmid": "18521470",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18521470/",
+      "category": "Neonatal outcomes",
+      "type": "Research article",
+      "summary": "A ten-year study of the causes of newborn and later infant deaths in a neonatal intensive care unit.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/18521470/",
+        "https://europepmc.org/article/MED/18521470",
+        "https://doi.org/10.15537/1658-3175.4366",
+        "https://api.crossref.org/works/10.15537/1658-3175.4366"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; matching publisher-registered Crossref metadata used for newly assigned Saudi Medical Journal DOIs.",
+      "notes": [],
+      "topics": [
+        "neonatal"
+      ]
+    },
+    {
+      "id": "pmid-16380764",
+      "title": "Assisted reproductive technology. What is needed in the Kingdom of Saudi Arabia?",
+      "year": 2005,
+      "publication_date": "2005-12",
+      "online_first": "2005-12-01",
+      "authors": [
+        "Muhammad A Majeed-Saidan"
+      ],
+      "authors_indexed": "Majeed-Saidan MA.",
+      "author_list_complete": true,
+      "journal": "Saudi Medical Journal",
+      "volume": "26",
+      "issue": "12",
+      "pages": "1871-1874",
+      "doi": "10.15537/1658-3175.3227",
+      "pmid": "16380764",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16380764/",
+      "category": "Prevention & policy",
+      "type": "Review",
+      "summary": "A review of assisted reproductive technology and its clinical implications in Saudi Arabia.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16380764/",
+        "https://europepmc.org/article/MED/16380764",
+        "https://doi.org/10.15537/1658-3175.3227",
+        "https://api.crossref.org/works/10.15537/1658-3175.3227"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; matching publisher-registered Crossref metadata used for newly assigned Saudi Medical Journal DOIs.",
+      "notes": [],
+      "topics": []
+    },
+    {
+      "id": "pmid-8877605",
+      "title": "Treatment of neonatal seizures with carbamazepine",
+      "year": 1996,
+      "publication_date": "1996-09",
+      "online_first": "1996-09-01",
+      "authors": [
+        "B Singh",
+        "P Singh",
+        "I al Hifzi",
+        "M Khan",
+        "M Majeed-Saidan"
+      ],
+      "authors_indexed": "Singh B, Singh P, al Hifzi I, Khan M, Majeed-Saidan M.",
+      "author_list_complete": true,
+      "journal": "Journal of Child Neurology",
+      "volume": "11",
+      "issue": "5",
+      "pages": "378-382",
+      "doi": "10.1177/088307389601100506",
+      "pmid": "8877605",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8877605/",
+      "category": "Neonatal medicine",
+      "type": "Clinical trial",
+      "summary": "An early clinical study of carbamazepine for neonatal seizures, including drug levels and treatment response.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/8877605/",
+        "https://europepmc.org/article/MED/8877605",
+        "https://doi.org/10.1177/088307389601100506"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API.",
+      "notes": [
+        "PubMed abbreviates the researcher as M. Majeed-Saidan; Crossref expands the name to Mohammed Majeed-Saidan and lists the Department of Pediatrics, Armed Forces Hospital, Riyadh."
+      ],
+      "topics": [
+        "neonatal"
+      ]
+    },
+    {
+      "id": "pmid-8435899",
+      "title": "Congenital hypothyroidism: the Riyadh Military Hospital experience",
+      "year": 1993,
+      "publication_date": "1993-02",
+      "online_first": "1993-02-01",
+      "authors": [
+        "M A Majeed-Saidan",
+        "B Joyce",
+        "M Khan",
+        "H D Hamam"
+      ],
+      "authors_indexed": "Majeed-Saidan MA, Joyce B, Khan M, Hamam HD.",
+      "author_list_complete": true,
+      "journal": "Clinical Endocrinology",
+      "volume": "38",
+      "issue": "2",
+      "pages": "191-195",
+      "doi": "10.1111/j.1365-2265.1993.tb00992.x",
+      "pmid": "8435899",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8435899/",
+      "category": "Neonatal medicine",
+      "type": "Research article",
+      "summary": "An evaluation of newborn screening, diagnosis and clinical features of congenital hypothyroidism.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/8435899/",
+        "https://europepmc.org/article/MED/8435899",
+        "https://doi.org/10.1111/j.1365-2265.1993.tb00992.x"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API.",
+      "notes": [],
+      "topics": [
+        "neonatal",
+        "surveillance"
+      ]
+    },
+    {
+      "id": "pmid-8093391",
+      "title": "Pulmonary haemorrhage in low-birthweight babies",
+      "year": 1993,
+      "publication_date": "1993-01",
+      "online_first": "1993-01-01",
+      "authors": [
+        "M A Majeed-Saidan",
+        "I al-Hifzi",
+        "M Khan"
+      ],
+      "authors_indexed": "Majeed-Saidan MA, al-Hifzi I, Khan M.",
+      "author_list_complete": true,
+      "journal": "The Lancet",
+      "volume": "341",
+      "issue": "8837",
+      "pages": "120",
+      "doi": "10.1016/0140-6736(93)92602-p",
+      "pmid": "8093391",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8093391/",
+      "category": "Neonatal medicine",
+      "type": "Letter",
+      "summary": "A letter addressing pulmonary haemorrhage in low-birthweight babies.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/8093391/",
+        "https://europepmc.org/article/MED/8093391",
+        "https://doi.org/10.1016/0140-6736(93)92602-p"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API.",
+      "notes": [],
+      "topics": [
+        "neonatal"
+      ]
+    },
+    {
+      "id": "singh-1992-carbamazepine",
+      "title": "Carbamazepine in neonates: Low-dose schedule",
+      "year": 1992,
+      "publication_date": "1992-09",
+      "online_first": null,
+      "authors": [
+        "Balbir Singh",
+        "Poonam Singh",
+        "B. Joyce",
+        "Ibrahim Al-Hifzi",
+        "Masood Khan",
+        "M.A. Majeed-Saidan"
+      ],
+      "author_list_complete": true,
+      "journal": "Pediatric Neurology",
+      "volume": "8",
+      "issue": "5",
+      "pages": "347-348",
+      "doi": "10.1016/0887-8994(92)90101-4",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/0887899492901014",
+      "category": "Neonatal medicine",
+      "type": "Journal contribution",
+      "summary": "An early publication on a low-dose carbamazepine schedule in neonates.",
+      "sources": [
+        "https://doi.org/10.1016/0887-8994(92)90101-4",
+        "https://api.crossref.org/works/10.1016/0887-8994(92)90101-4"
+      ],
+      "verification": "Publisher-registered Crossref bibliographic metadata.",
+      "notes": [
+        "Crossref indexes coauthor Joyce's given name as \"Brain\"; displayed conservatively as B. Joyce pending inspection of the original paper. Full-text article subtype and any PubMed ID were not verified."
+      ],
+      "topics": [
+        "neonatal"
+      ]
+    },
+    {
+      "id": "pmid-1810990",
+      "title": "Aplasia cutis congenita with fetus papyraceus",
+      "year": 1991,
+      "publication_date": "1991-12",
+      "online_first": "1991-12-01",
+      "authors": [
+        "R K Joshi",
+        "M A Majeed-Saidan",
+        "A Abanmi",
+        "D Diab"
+      ],
+      "authors_indexed": "Joshi RK, Majeed-Saidan MA, Abanmi A, Diab D.",
+      "author_list_complete": true,
+      "journal": "Journal of the American Academy of Dermatology",
+      "volume": "25",
+      "issue": "6 Pt 1",
+      "pages": "1083-1085",
+      "doi": "10.1016/s0190-9622(08)80446-x",
+      "pmid": "1810990",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1810990/",
+      "category": "Birth defects",
+      "type": "Case report",
+      "summary": "A clinical report of aplasia cutis congenita associated with fetus papyraceus.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/1810990/",
+        "https://europepmc.org/article/MED/1810990",
+        "https://doi.org/10.1016/s0190-9622(08)80446-x"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API.",
+      "notes": [],
+      "topics": [
+        "anomalies"
+      ]
+    },
+    {
+      "id": "pmid-2785036",
+      "title": "Cystic fibrosis in Saudi Arabia",
+      "year": 1989,
+      "publication_date": "1989-01",
+      "online_first": "1989-01-01",
+      "authors": [
+        "H Nazer",
+        "E Riff",
+        "N Sakati",
+        "R Mathew",
+        "M A Majeed-Saidan",
+        "H Harfi"
+      ],
+      "authors_indexed": "Nazer H, Riff E, Sakati N, Mathew R, Majeed-Saidan MA, Harfi H.",
+      "author_list_complete": true,
+      "journal": "European Journal of Pediatrics",
+      "volume": "148",
+      "issue": "4",
+      "pages": "330-332",
+      "doi": "10.1007/bf00444127",
+      "pmid": "2785036",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2785036/",
+      "category": "Paediatric medicine",
+      "type": "Research article",
+      "summary": "An early report documenting cystic fibrosis in Saudi children and the importance of recognizing its presentation.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/2785036/",
+        "https://europepmc.org/article/MED/2785036",
+        "https://doi.org/10.1007/bf00444127"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API.",
+      "notes": [],
+      "topics": []
+    }
+  ]
+}

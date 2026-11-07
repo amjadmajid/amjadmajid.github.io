@@ -1,0 +1,4 @@
+dist/
+.openai/
+.DS_Store
+node_modules/
