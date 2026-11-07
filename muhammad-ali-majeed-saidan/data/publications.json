@@ -3,14 +3,15 @@
   "user_supplied_name": "Mohammed Ali Majeed Saidan",
   "orcid": "0000-0003-1705-7540",
   "verified_on": "2026-11-07",
-  "record_count": 18,
-  "scope": "Source-verified bibliography assembled from PubMed/Europe PMC, publisher pages and publisher-deposited Crossref records. Includes original research, clinical reports, a review, an editorial and correspondence. This is not a complete Google Scholar export and must not be represented as a total career publication count.",
+  "record_count": 34,
+  "scope": "Source-verified bibliography spanning 1974–2025, assembled from PubMed/Europe PMC, publisher pages and publisher-deposited Crossref records, with early author identity established by the supplied CV. Includes original research, clinical reports, a review, an editorial and correspondence. This is not a complete Google Scholar export or a total career publication count.",
   "disambiguation": [
     "Maryam Muhammad Ali Majeed-Saidan / Maryam Majeed-Saidan is a different author (cardiology and other work), excluded.",
     "Ahmad Majeed-Saidan is a different author (dentistry), excluded.",
     "Citing articles not authored by the researcher were excluded.",
     "ORCID 0000-0003-1705-7540 is explicitly linked by his 2019 Springer article; the public ORCID record did not expose a works list.",
-    "No verified citation count, h-index or comprehensive Google Scholar publication count is available."
+    "No verified citation count, h-index or comprehensive Google Scholar publication count is available.",
+    "The supplied CV links early M A Majeed and the M A Majid spelling in the three WHO outbreak papers to this researcher. Bibliographic author forms are retained as indexed; the aliases are not used to merge unrelated works."
   ],
   "publications": [
     {
@@ -691,6 +692,690 @@
       "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API.",
       "notes": [],
       "topics": []
+    },
+    {
+      "id": "pmid-7341057",
+      "title": "Dose-response relationship for human fetal exposure to methylmercury",
+      "year": 1981,
+      "publication_date": "1981-11",
+      "online_first": null,
+      "authors": [
+        "D O Marsh",
+        "G J Myers",
+        "T W Clarkson",
+        "L Amin-Zaki",
+        "S Tikriti",
+        "M A Majeed",
+        "A R Dabbagh"
+      ],
+      "authors_indexed": "Marsh DO, Myers GJ, Clarkson TW, Amin-Zaki L, Tikriti S, Majeed MA, Dabbagh AR.",
+      "author_list_complete": true,
+      "journal": "Clinical Toxicology",
+      "volume": "18",
+      "issue": "11",
+      "pages": "1311-1318",
+      "doi": "10.3109/00099308109035071",
+      "pmid": "7341057",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7341057/",
+      "category": "Toxicology & child health",
+      "type": "Research article",
+      "summary": "An analysis of maternal mercury exposure and infant neurological outcomes following the Iraqi methylmercury outbreak.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/7341057/",
+        "https://europepmc.org/article/MED/7341057",
+        "https://doi.org/10.3109/00099308109035071"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV.",
+      "notes": [],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0202"
+    },
+    {
+      "id": "pmid-6892222",
+      "title": "Methylmercury poisoning in the Iraqi suckling infant: a longitudinal study over five years",
+      "year": 1981,
+      "publication_date": "1981-08",
+      "online_first": null,
+      "authors": [
+        "L Amin-Zaki",
+        "M A Majeed",
+        "M R Greenwood",
+        "S B Elhassani",
+        "T W Clarkson",
+        "R A Doherty"
+      ],
+      "authors_indexed": "Amin-Zaki L, Majeed MA, Greenwood MR, Elhassani SB, Clarkson TW, Doherty RA.",
+      "author_list_complete": true,
+      "journal": "Journal of Applied Toxicology",
+      "volume": "1",
+      "issue": "4",
+      "pages": "210-214",
+      "doi": "10.1002/jat.2550010405",
+      "pmid": "6892222",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6892222/",
+      "category": "Toxicology & child health",
+      "type": "Research article",
+      "summary": "Five-year follow-up of mothers and breastfed infants exposed during the 1972 Iraqi methylmercury outbreak.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/6892222/",
+        "https://europepmc.org/article/MED/6892222",
+        "https://doi.org/10.1002/jat.2550010405"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV.",
+      "notes": [],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0197–0198"
+    },
+    {
+      "id": "pmid-7241391",
+      "title": "Tests of efficacy of antidotes for removal of methylmercury in human poisoning during the Iraq outbreak",
+      "year": 1981,
+      "publication_date": "1981-07",
+      "online_first": null,
+      "authors": [
+        "T W Clarkson",
+        "L Magos",
+        "C Cox",
+        "M R Greenwood",
+        "L Amin-Zaki",
+        "M A Majeed",
+        "S F Al-Damluji"
+      ],
+      "authors_indexed": "Clarkson TW, Magos L, Cox C, Greenwood MR, Amin-Zaki L, Majeed MA, Al-Damluji SF.",
+      "author_list_complete": true,
+      "journal": "Journal of Pharmacology and Experimental Therapeutics",
+      "volume": "218",
+      "issue": "1",
+      "pages": "74-83",
+      "doi": "10.1016/s0022-3565(25)32633-9",
+      "pmid": "7241391",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7241391/",
+      "category": "Toxicology & child health",
+      "type": "Research article",
+      "summary": "A historical investigation of agents used to accelerate mercury clearance after human methylmercury poisoning.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/7241391/",
+        "https://europepmc.org/article/MED/7241391",
+        "https://doi.org/10.1016/s0022-3565(25)32633-9",
+        "https://api.crossref.org/works/10.1016/s0022-3565(25)32633-9"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV. Publisher metadata also checked.",
+      "notes": [
+        "The retrospectively assigned Elsevier DOI is verified in publisher-deposited Crossref metadata. The article was published in July 1981; the (25) string in the DOI does not change its publication year."
+      ],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0200"
+    },
+    {
+      "id": "pmid-7377761",
+      "title": "Fetal methylmercury poisoning: clinical and toxicological data on 29 cases",
+      "year": 1980,
+      "publication_date": "1980-04",
+      "online_first": null,
+      "authors": [
+        "D O Marsh",
+        "G J Myers",
+        "T W Clarkson",
+        "L Amin-Zaki",
+        "S Tikriti",
+        "M A Majeed"
+      ],
+      "authors_indexed": "Marsh DO, Myers GJ, Clarkson TW, Amin-Zaki L, Tikriti S, Majeed MA.",
+      "author_list_complete": true,
+      "journal": "Annals of Neurology",
+      "volume": "7",
+      "issue": "4",
+      "pages": "348-353",
+      "doi": "10.1002/ana.410070412",
+      "pmid": "7377761",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7377761/",
+      "category": "Toxicology & child health",
+      "type": "Research article",
+      "summary": "Clinical and toxicological observations from 29 mother–infant pairs exposed to methylmercury during pregnancy.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/7377761/",
+        "https://europepmc.org/article/MED/7377761",
+        "https://doi.org/10.1002/ana.410070412"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV.",
+      "notes": [],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0193–0195"
+    },
+    {
+      "id": "pmid-7387388",
+      "title": "Comparative study of the sensitivity of virgin and pregnant rats to methylmercury",
+      "year": 1980,
+      "publication_date": "1980-02",
+      "online_first": null,
+      "authors": [
+        "L Magos",
+        "G C Peristianis",
+        "T W Clarkson",
+        "R T Snowden",
+        "M A Majeed"
+      ],
+      "authors_indexed": "Magos L, Peristianis GC, Clarkson TW, Snowden RT, Majeed MA.",
+      "author_list_complete": true,
+      "journal": "Archives of Toxicology",
+      "volume": "43",
+      "issue": "4",
+      "pages": "283-291",
+      "doi": "10.1007/bf00366184",
+      "pmid": "7387388",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7387388/",
+      "category": "Experimental toxicology",
+      "type": "Research article",
+      "summary": "An experimental comparison of responses to methylmercury exposure in pregnant and non-pregnant rats.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/7387388/",
+        "https://europepmc.org/article/MED/7387388",
+        "https://doi.org/10.1007/bf00366184"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV.",
+      "notes": [],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0187–0188"
+    },
+    {
+      "id": "pmid-6171399",
+      "title": "Methylmercury poisoning in mothers and their suckling infants",
+      "year": 1980,
+      "publication_date": "1980",
+      "online_first": null,
+      "authors": [
+        "L Amin-Zaki",
+        "S B Elhassani",
+        "M A Majeed",
+        "T W Clarkson",
+        "R A Doherty",
+        "M R Greenwood"
+      ],
+      "authors_indexed": "Amin-Zaki L, Elhassani SB, Majeed MA, Clarkson TW, Doherty RA, Greenwood MR.",
+      "author_list_complete": true,
+      "journal": "Developments in Toxicology and Environmental Science",
+      "volume": "8",
+      "issue": null,
+      "pages": "75-78",
+      "doi": null,
+      "pmid": "6171399",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6171399/",
+      "category": "Toxicology & child health",
+      "type": "Research article",
+      "summary": "A comparative report on methylmercury poisoning in mothers and their breastfed infants.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/6171399/",
+        "https://europepmc.org/article/MED/6171399"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV.",
+      "notes": [],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0190–0191"
+    },
+    {
+      "id": "pmid-84530",
+      "title": "Prenatal methylmercury poisoning. Clinical observations over five years",
+      "year": 1979,
+      "publication_date": "1979-02",
+      "online_first": null,
+      "authors": [
+        "L Amin-Zaki",
+        "M A Majeed",
+        "S B Elhassani",
+        "T W Clarkson",
+        "M R Greenwood",
+        "R A Doherty"
+      ],
+      "authors_indexed": "Amin-Zaki L, Majeed MA, Elhassani SB, Clarkson TW, Greenwood MR, Doherty RA.",
+      "author_list_complete": true,
+      "journal": "American Journal of Diseases of Children",
+      "volume": "133",
+      "issue": "2",
+      "pages": "172-177",
+      "doi": "10.1001/archpedi.1979.02130020064013",
+      "pmid": "84530",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/84530/",
+      "category": "Toxicology & child health",
+      "type": "Research article",
+      "summary": "Five-year clinical follow-up of 32 infants exposed to methylmercury before birth and their mothers.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/84530/",
+        "https://europepmc.org/article/MED/84530",
+        "https://doi.org/10.1001/archpedi.1979.02130020064013",
+        "https://jamanetwork.com/journals/jamapediatrics/article-abstract/508345"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV. Publisher metadata also checked.",
+      "notes": [
+        "Complete author list and DOI were checked against the JAMA publisher record; the CV lists only the first three authors in its main bibliography."
+      ],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0184–0185"
+    },
+    {
+      "id": "pmid-679925",
+      "title": "Blood clearance half-times in lactating and nonlactating members of a population exposed to methylmercury",
+      "year": 1978,
+      "publication_date": "1978-07",
+      "online_first": null,
+      "authors": [
+        "M R Greenwood",
+        "T W Clarkson",
+        "R A Doherty",
+        "A H Gates",
+        "L Amin-Zaki",
+        "S Elhassani",
+        "M A Majeed"
+      ],
+      "authors_indexed": "Greenwood MR, Clarkson TW, Doherty RA, Gates AH, Amin-Zaki L, Elhassani S, Majeed MA.",
+      "author_list_complete": true,
+      "journal": "Environmental Research",
+      "volume": "16",
+      "issue": "1-3",
+      "pages": "48-54",
+      "doi": "10.1016/0013-9351(78)90140-8",
+      "pmid": "679925",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/679925/",
+      "category": "Toxicology & child health",
+      "type": "Research article",
+      "summary": "An investigation of mercury elimination in exposed lactating and non-lactating members of a population.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/679925/",
+        "https://europepmc.org/article/MED/679925",
+        "https://doi.org/10.1016/0013-9351(78)90140-8"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV.",
+      "notes": [],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0175"
+    },
+    {
+      "id": "pmid-630256",
+      "title": "Methylmercury poisoning in Iraqi children: clinical observations over two years",
+      "year": 1978,
+      "publication_date": "1978-03",
+      "online_first": null,
+      "authors": [
+        "L Amin-Zaki",
+        "M A Majeed",
+        "T W Clarkson",
+        "M R Greenwood"
+      ],
+      "authors_indexed": "Amin-zaki L, Majeed MA, Clarkson TW, Greenwood MR.",
+      "author_list_complete": true,
+      "journal": "British Medical Journal",
+      "volume": "1",
+      "issue": "6113",
+      "pages": "613-616",
+      "doi": "10.1136/bmj.1.6113.613",
+      "pmid": "630256",
+      "pmcid": "PMC1603391",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/630256/",
+      "category": "Toxicology & child health",
+      "type": "Research article",
+      "summary": "Two-year follow-up of clinical features and recovery in 49 children affected by methylmercury poisoning.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/630256/",
+        "https://europepmc.org/article/MED/630256",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1603391/",
+        "https://doi.org/10.1136/bmj.1.6113.613"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV.",
+      "notes": [
+        "The correct publication year is 1978. The copied Scholar-style list in the CV also contains a duplicate entry with the erroneous year 1987."
+      ],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0178–0179"
+    },
+    {
+      "id": "pmid-659814",
+      "title": "Exchange transfusion treatment of methylmercury-poisoned children",
+      "year": 1978,
+      "publication_date": "1978",
+      "online_first": null,
+      "authors": [
+        "S B Elhassani",
+        "L Amin-Zaki",
+        "M A Majeed",
+        "T W Clarkson",
+        "R A Doherty",
+        "M R Greenwood",
+        "R W Kilpper"
+      ],
+      "authors_indexed": "Elhassani SB, Amin-Zaki L, Majeed MA, Clarkson TW, Doherty RA, Greenwood MR, Kilpper RW.",
+      "author_list_complete": true,
+      "journal": "Journal of Environmental Science and Health, Part C: Environmental Health Sciences",
+      "volume": "13",
+      "issue": "1",
+      "pages": "63-80",
+      "doi": null,
+      "pmid": "659814",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/659814/",
+      "category": "Toxicology & child health",
+      "type": "Clinical report",
+      "summary": "A clinical report on exchange transfusion in three children exposed during the Iraqi methylmercury outbreak.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/659814/",
+        "https://europepmc.org/article/MED/659814"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV.",
+      "notes": [
+        "PubMed identifies the journal as Part C: Environmental Health Sciences. Some secondary indexes misidentify it as Part B. No DOI was verified."
+      ],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0181–0182"
+    },
+    {
+      "id": "pmid-973609",
+      "title": "Perinatal methylmercury poisoning in Iraq",
+      "year": 1976,
+      "publication_date": "1976-10",
+      "online_first": null,
+      "authors": [
+        "L Amin-Zaki",
+        "S Elhassani",
+        "M A Majeed",
+        "T W Clarkson",
+        "R A Doherty",
+        "M R Greenwood",
+        "T Giovanoli-Jakubczak"
+      ],
+      "authors_indexed": "Amin-Zaki L, Elhassani S, Majeed MA, Clarkson TW, Doherty RA, Greenwood MR, Giovanoli-Jakubczak T.",
+      "author_list_complete": true,
+      "journal": "American Journal of Diseases of Children",
+      "volume": "130",
+      "issue": "10",
+      "pages": "1070-1076",
+      "doi": "10.1001/archpedi.1976.02120110032004",
+      "pmid": "973609",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/973609/",
+      "category": "Toxicology & child health",
+      "type": "Research article",
+      "summary": "Clinical and laboratory observations of methylmercury exposure in two mother–infant pairs.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/973609/",
+        "https://europepmc.org/article/MED/973609",
+        "https://doi.org/10.1001/archpedi.1976.02120110032004",
+        "https://jamanetwork.com/journals/jamapediatrics/article-abstract/506664"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV. Publisher metadata also checked.",
+      "notes": [],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0158–0159"
+    },
+    {
+      "id": "pmid-1086166",
+      "title": "Epidemiology of organomercury poisoning in Iraq. III. Clinical features and their changes with time",
+      "year": 1976,
+      "publication_date": "1976",
+      "online_first": null,
+      "authors": [
+        "G Kazantzis",
+        "A W Al-Mufti",
+        "J F Copplestone",
+        "M A Majid",
+        "R M Mahmoud"
+      ],
+      "authors_indexed": "Kazantzis G, Al-Mufti AW, Copplestone JF, Majid MA, Mahmoud RM.",
+      "author_list_complete": true,
+      "journal": "Bulletin of the World Health Organization",
+      "volume": "53",
+      "issue": "Suppl",
+      "pages": "49-57",
+      "doi": null,
+      "pmid": "1086166",
+      "pmcid": "PMC2366390",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1086166/",
+      "category": "Environmental epidemiology",
+      "type": "Research article",
+      "summary": "A study of clinical features, disability and changes in symptoms following the Iraqi organomercury outbreak.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/1086166/",
+        "https://europepmc.org/article/MED/1086166",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2366390/"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV.",
+      "notes": [
+        "Part III, pages 49–57, not part VI. Correct author list follows PubMed/PMC. The indexed author spelling is M A Majid."
+      ],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0161, 0171"
+    },
+    {
+      "id": "pmid-1086165",
+      "title": "Epidemiology of organomercury poisoning in Iraq. II. Relationship of mercury levels in blood and hair to exposure and to clinical findings",
+      "year": 1976,
+      "publication_date": "1976",
+      "online_first": null,
+      "authors": [
+        "G Kazantzis",
+        "A W Al-Mufti",
+        "A Al-Jawad",
+        "Y Al-Shahwani",
+        "M A Majid",
+        "R M Mahmoud",
+        "M Soufi",
+        "K Tawfiq",
+        "M A Ibrahim",
+        "H Dabagh"
+      ],
+      "authors_indexed": "Kazantzis G, Al-Mufti AW, Al-Jawad A, Al-Shahwani Y, Majid MA, Mahmoud RM, Soufi M, Tawfiq K, Ibrahim MA, Dabagh H.",
+      "author_list_complete": true,
+      "journal": "Bulletin of the World Health Organization",
+      "volume": "53",
+      "issue": "Suppl",
+      "pages": "37-48",
+      "doi": null,
+      "pmid": "1086165",
+      "pmcid": "PMC2366389",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1086165/",
+      "category": "Environmental epidemiology",
+      "type": "Research article",
+      "summary": "An investigation of mercury measurements in blood and hair in relation to exposure and clinical findings.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/1086165/",
+        "https://europepmc.org/article/MED/1086165",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2366389/"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV.",
+      "notes": [
+        "Part II, pages 37–48. Correct author list and pagination follow PubMed/PMC, resolving transposed entries in the supplied CV. The indexed author spelling is M A Majid."
+      ],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0166–0169"
+    },
+    {
+      "id": "pmid-1086164",
+      "title": "Epidemiology of organomercury poisoning in Iraq. I. Incidence in a defined area and relationship to the eating of contaminated bread",
+      "year": 1976,
+      "publication_date": "1976",
+      "online_first": null,
+      "authors": [
+        "A W Al-Mufti",
+        "J F Copplestone",
+        "G Kazantzis",
+        "R M Mahmoud",
+        "M A Majid"
+      ],
+      "authors_indexed": "Al-Mufti AW, Copplestone JF, Kazantzis G, Mahmoud RM, Majid MA.",
+      "author_list_complete": true,
+      "journal": "Bulletin of the World Health Organization",
+      "volume": "53",
+      "issue": "Suppl",
+      "pages": "23-36",
+      "doi": null,
+      "pmid": "1086164",
+      "pmcid": "PMC2366407",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1086164/",
+      "category": "Environmental epidemiology",
+      "type": "Research article",
+      "summary": "A population survey of organomercury poisoning and its relationship to consumption of contaminated bread.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/1086164/",
+        "https://europepmc.org/article/MED/1086164",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2366407/"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV.",
+      "notes": [
+        "Part I, pages 23–36. The supplied CV contains duplicate or mismatched page ranges within this three-paper WHO series. The indexed author spelling is M A Majid."
+      ],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0163–0164"
+    },
+    {
+      "id": "pmid-4480317",
+      "title": "Intra-uterine methylmercury poisoning in Iraq",
+      "year": 1974,
+      "publication_date": "1974-11",
+      "online_first": null,
+      "authors": [
+        "L Amin-Zaki",
+        "S Elhassani",
+        "M A Majeed",
+        "T W Clarkson",
+        "R A Doherty",
+        "M Greenwood"
+      ],
+      "authors_indexed": "Amin-Zaki L, Elhassani S, Majeed MA, Clarkson TW, Doherty RA, Greenwood M.",
+      "author_list_complete": true,
+      "journal": "Pediatrics",
+      "volume": "54",
+      "issue": "5",
+      "pages": "587-595",
+      "doi": "10.1542/peds.54.5.587",
+      "pmid": "4480317",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4480317/",
+      "category": "Toxicology & child health",
+      "type": "Research article",
+      "summary": "Clinical and laboratory observations of mothers and infants exposed to methylmercury during pregnancy in Iraq.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/4480317/",
+        "https://europepmc.org/article/MED/4480317",
+        "https://doi.org/10.1542/peds.54.5.587",
+        "https://publications.aap.org/pediatrics/article/54/5/587/46011/Intra-uterine-Methylmercury-Poisoning-in-Iraq"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV. Publisher metadata also checked.",
+      "notes": [
+        "The American Academy of Pediatrics publisher confirms DOI 10.1542/peds.54.5.587. A different DOI attached to this PMID by Europe PMC points to a later book chapter and was not used."
+      ],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0152–0153"
+    },
+    {
+      "id": "pmid-4854450",
+      "title": "Studies of infants postnatally exposed to methylmercury",
+      "year": 1974,
+      "publication_date": "1974-07",
+      "online_first": null,
+      "authors": [
+        "L Amin-Zaki",
+        "S Elhassani",
+        "M A Majeed",
+        "T W Clarkson",
+        "R A Doherty",
+        "M R Greenwood"
+      ],
+      "authors_indexed": "Amin-Zaki L, Elhassani S, Majeed MA, Clarkson TW, Doherty RA, Greenwood MR.",
+      "author_list_complete": true,
+      "journal": "The Journal of Pediatrics",
+      "volume": "85",
+      "issue": "1",
+      "pages": "81-84",
+      "doi": "10.1016/s0022-3476(74)80291-x",
+      "pmid": "4854450",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4854450/",
+      "category": "Toxicology & child health",
+      "type": "Research article",
+      "summary": "A study of infants exposed to methylmercury after birth.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/4854450/",
+        "https://europepmc.org/article/MED/4854450",
+        "https://doi.org/10.1016/s0022-3476(74)80291-x"
+      ],
+      "verification": "PubMed bibliographic metadata retrieved through the Europe PMC API; individual authorship checked. Historical author identity is linked by the supplied CV.",
+      "notes": [],
+      "topics": [
+        "toxicology"
+      ],
+      "cv_source_paragraphs": "0155–0156"
+    }
+  ],
+  "source_updates": [
+    {
+      "date": "2026-11-07",
+      "source": "Curriculum vitae supplied by the requester; contents include publications through 2025 despite the older filename.",
+      "new_records": 16,
+      "corrections": [
+        "WHO series comprises parts I (23–36), II (37–48) and III (49–57), with differing author lists. CV repeated/transposed records were collapsed to these three distinct papers.",
+        "Methylmercury poisoning in Iraqi children was published in1978, not1987 as stated in one duplicate Scholar-style entry.",
+        "1974 Pediatrics DOI comes from its AAP publisher. EuropePMC had attached a later book-chapter DOI, which was rejected.",
+        "1981 antidote article DOI contains (25) but Crossref explicitly records the historical1981 publication.",
+        "All citation totals in the copied Scholar-style table are omitted; they are undated historical metrics and repeated entries.",
+        "CV filename suggests2020 but content includes books dated2021 and an article dated2025; no July2020 information cutoff is assumed."
+      ],
+      "excluded_candidates": [
+        {
+          "item": "Clinical Committee Report, Intoxication due to alkylmercury-treated seed:1971–1972 outbreak in Iraq, clinical aspects (1976)",
+          "reason": "Collective committee report; no separate individually verified author record for M A Majeed/Majid was established in this review. His CV describes participation, which can be mentioned as professional history without adding another individually authored paper."
+        },
+        {
+          "item": "1977 Intra-uterine Methylmercury Poisoning in Iraq and Fetotoxicity of methylmercury book/conference entries in the copied Scholar export",
+          "reason": "Not counted as additional journal studies; may represent republished/chapter versions or proceedings. The1974 primary journal article is included."
+        },
+        {
+          "item": "1974 WHO conference abstract on methylmercury kinetics during exchange transfusion",
+          "reason": "Conference abstract, not added as a separate research article; related1978 journal report is included."
+        },
+        {
+          "item": "1980 prenatal methylmercury entry in Obstetrical & Gynecological Survey",
+          "reason": "Possible secondary abstract/review of the1979 study; not treated as a new authored research article."
+        },
+        {
+          "item": "Malformed or duplicate Scholar-export entries with truncated author strings, identical titles or journal references",
+          "reason": "Deduplicated against primary bibliographic records."
+        }
+      ]
     }
   ]
 }

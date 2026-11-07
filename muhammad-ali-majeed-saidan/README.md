@@ -1,11 +1,13 @@
 # Dr Muhammad Ali Majeed-Saidan — professional research website
 
-A responsive, accessible, buildless academic website covering paediatrics, neonatal medicine, congenital anomalies and birth-defect surveillance. The public name follows his publications; the alternative spelling provided for the project is included in structured metadata.
+A responsive, accessible, buildless academic website covering paediatrics, neonatal medicine, congenital anomalies, birth-defect surveillance and environmental toxicology. The public name follows his publications; the alternative spelling provided for the project is included in structured metadata.
 
 ## Features
 
 - Editorial design with original SVG artwork, system fonts and no third-party scripts.
-- Biography and dated professional contributions tied to public sources.
+- Biography, qualifications and dated career history drawn from the supplied CV and public professional sources.
+- A detailed background page covering teaching, service, departmental recognition and two Arabic books.
+- 34 verified bibliographic entries spanning 1974–2025, including early methylmercury research.
 - Searchable bibliography with topic/year filtering, pagination and copyable citations.
 - Journal/DOI and PubMed links, plus a downloadable BibTeX bibliography.
 - Semantic HTML, keyboard navigation, reduced-motion support and print styles.
@@ -38,6 +40,8 @@ With Node 18 or newer, `npm run build` copies the public site to `dist/` for pre
 | File | Purpose |
 | --- | --- |
 | `index.html` | Profile text, links, research sections and pre-rendered publication list |
+| `background.html` | Qualifications, career history, teaching, service and Arabic books |
+| `assets/background.css` | Background page styling |
 | `assets/styles.css` | Design and responsive layout |
 | `assets/stories.css` | Photo-story and homepage story feature styling |
 | `stories/british-museum-2026-11-07.html` | British Museum photo story with all six supplied photographs |
@@ -49,12 +53,12 @@ With Node 18 or newer, `npm run build` copies the public site to `dist/` for pre
 | `scripts/render-publications.py` | Regenerates the publication HTML and BibTeX from JSON |
 | `docs/research-notes.md` | Evidence, identity checks, editorial decisions and facts needing confirmation |
 
-To update the bibliography, edit `data/publications.json`, run `python scripts/render-publications.py`, then run the build/check commands. Each record requires a source URL and should be checked against a publisher or PubMed record. Publication topics are editorial classifications, not publisher keywords.
+To update the bibliography, edit `data/publications.json`, run `python scripts/render-publications.py`, then run the build/check commands. Each record requires a source URL and should be checked against a publisher or PubMed record. Older records without verified DOIs use their PubMed identifiers. Historical M A Majeed/M A Majid aliases are accepted only for the specific records connected by the supplied CV. Publication topics are editorial classifications, not publisher keywords.
 
 ## Editorial boundaries
 
-This is a professional research profile. It does not advertise active clinical practice. Current appointments, preferred contact details, a full CV and an approved portrait were not supplied or independently confirmed. Old institutional email addresses and citation metrics have not been presented as current. The supplied Google Scholar URL is preserved, but its contents could not be accessed during preparation.
+This is a professional research profile. It does not advertise active clinical practice. A CV has been supplied and used for professional history; it includes information from several periods despite an older filename. Current appointments and preferred public contact details remain unconfirmed. The low-resolution embedded portrait is not used as a hero image. Old institutional email addresses and citation metrics have not been presented as current. The supplied Google Scholar URL is preserved, but its contents could not be accessed during preparation.
 
-No university appointment, professor title, degree date, award or complete lifetime publication count is inferred. Similarly named authors are excluded. Refer to `docs/research-notes.md` before adding biographical claims.
+Qualification dates and departmental recognitions follow the supplied CV. No university appointment, professor title, current clinical registration, retirement status or complete lifetime publication count is inferred. Similarly named authors are excluded. Refer to `docs/research-notes.md` before adding biographical claims.
 
 Prepared 7 November 2026. Website content and bibliography should be reviewed periodically by the profile owner.

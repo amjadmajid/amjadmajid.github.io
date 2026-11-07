@@ -36,13 +36,17 @@ def bib_name(name):
 def bib_value(value):
     return str(value).replace('\\', '\\textbackslash{}').replace('&', '\\&').replace('%', '\\%').replace('_', '\\_')
 
+def is_researcher(name):
+    normalised = re.sub(r'[^a-z]', '', name.lower())
+    return 'majeedsaidan' in normalised or normalised in {'mamajeed', 'mamajid', 'mohammedamajeed', 'muhammedamajeed'}
+
 rendered = []
 bib = ['% Curated bibliography for Dr Muhammad Ali Majeed-Saidan', '% Verified 7 November 2026. Not a complete lifetime publication list.', '']
 for record in sorted(publications, key=order_key, reverse=True):
     rid = record['id']
     title = record['title'].replace('(1995--2004)', '(1995–2004)')
     topics = ','.join(record.get('topics', []))
-    authors = ', '.join(f'<strong>{esc(name)}</strong>' if 'majeed-saidan' in name.lower() else esc(name) for name in record['authors'])
+    authors = ', '.join(f'<strong>{esc(name)}</strong>' if is_researcher(name) else esc(name) for name in record['authors'])
     if record['type'] == 'Correspondence':
         authors = '<span class="indexed-note">Indexed letter and reply authors:</span> ' + authors
     volume = record.get('volume') or ''
@@ -50,8 +54,9 @@ for record in sorted(publications, key=order_key, reverse=True):
     pages = record.get('pages') or ''
     journal_meta = f"{record['journal']} · {volume}{issue}" + (f", {pages}" if pages else '')
     primary = 'https://doi.org/' + record['doi'] if record.get('doi') else record['url']
-    links = f'<a class="publication-link" href="{esc(primary)}" target="_blank" rel="noopener noreferrer">Journal <span aria-hidden="true">↗</span><span class="sr-only">: {esc(title)}</span></a>'
-    if record.get('pmid'):
+    primary_label = 'Journal' if record.get('doi') or 'pubmed.ncbi.nlm.nih.gov' not in primary else 'PubMed'
+    links = f'<a class="publication-link" href="{esc(primary)}" target="_blank" rel="noopener noreferrer">{primary_label} <span aria-hidden="true">↗</span><span class="sr-only">: {esc(title)}</span></a>'
+    if record.get('pmid') and primary_label != 'PubMed':
         links += f'<a class="publication-link" href="https://pubmed.ncbi.nlm.nih.gov/{esc(record["pmid"])}/" target="_blank" rel="noopener noreferrer">PubMed <span aria-hidden="true">↗</span><span class="sr-only">: {esc(title)}</span></a>'
     if record.get('pmcid'):
         links += f'<a class="publication-link" href="https://pmc.ncbi.nlm.nih.gov/articles/{esc(record["pmcid"])}/" target="_blank" rel="noopener noreferrer">Full text <span aria-hidden="true">↗</span><span class="sr-only">: {esc(title)}</span></a>'
